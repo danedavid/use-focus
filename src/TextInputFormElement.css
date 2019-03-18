@@ -1,0 +1,14 @@
+.element-container {
+  width: 200px;
+  padding: 0px 400px;
+  background-color: lightcoral;
+  border: 1px solid #777;
+}
+
+.element-container:first-child {
+  padding-left: 800px;
+}
+
+.element-container:last-child {
+  padding-right: 800px;
+}
