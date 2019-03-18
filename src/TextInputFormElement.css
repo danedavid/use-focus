@@ -1,8 +1,13 @@
 .element-container {
-  width: 200px;
-  padding: 0px 400px;
+  width: 240px;
+  padding: 20px 400px;
   background-color: lightcoral;
   border: 1px solid #777;
+  transition: background-color ease 0.4s;
+}
+
+.element-container div {
+  min-width: 200px;
 }
 
 .element-container.active {
