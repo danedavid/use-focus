@@ -5,10 +5,6 @@
   border: 1px solid #777;
 }
 
-.element-container:first-child {
-  padding-left: 800px;
-}
-
-.element-container:last-child {
-  padding-right: 800px;
+.element-container.active {
+  background-color: green;
 }

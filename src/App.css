@@ -6,9 +6,11 @@
 
 .intersection-line {
   position: fixed;
-  left: 50%;
   top: 0;
   bottom: 0;
-  width: 1px;
+  left: 16px;
+  right: 16px;
+  height: 100vh;
   background-color: #444;
+  overflow: auto;
 }
