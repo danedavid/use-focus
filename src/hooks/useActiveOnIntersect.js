@@ -14,7 +14,7 @@ export const useActiveOnIntersect = (setActiveElement, elementRef) => {
       isIntersecting,
     } = entry;
 
-    if ( isIntersecting && intersectionRatio === 1 ) {
+    if ( isIntersecting && intersectionRatio > 0.95 ) {
       setActiveElement();
     }
   };
